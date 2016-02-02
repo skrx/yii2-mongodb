@@ -1,0 +1,21 @@
+{
+    "name": "vistart/yii2-mongodb",
+    "description": "MongoDb extension for the Yii framework",
+    "keywords": ["yii2", "mongo", "mongodb", "active-record"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zhao vistart",
+            "email": "i@vistart.name"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "mongodb/mongodb": "*",
+        "ext-mongodb": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-4": { "vistart\\mongodb\\": "" }
+    }    
+}
