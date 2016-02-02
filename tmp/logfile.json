@@ -1,0 +1,1635 @@
+{
+    "event": "suiteStart",
+    "suite": "Common",
+    "tests": 82
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "tests": 6
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testSet"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testSet",
+    "status": "error",
+    "time": 2.047464132309,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 508
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Cache.php",
+            "line": 122,
+            "function": "update",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\yiisoft\\yii2\\caching\\Cache.php",
+            "line": 202,
+            "function": "setValue",
+            "class": "vistart\\mongodb\\Cache",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CacheTest.php",
+            "line": 43,
+            "function": "set",
+            "class": "yii\\caching\\Cache",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd",
+    "status": "fail",
+    "time": 2.0091071128845,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CacheTest.php",
+            "line": 57,
+            "function": "assertTrue",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Unable to add value!\nFailed asserting that false is true.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CacheTest::testSet\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CacheTest::testSet\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CacheTest::testSet\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CacheTest",
+    "test": "vistart\\mongodb\\tests\\CacheTest::testAdd",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CacheTest::testSet\" to pass.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "tests": 20
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testGetName"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testGetName",
+    "status": "pass",
+    "time": 2.00914311409,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFind"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFind",
+    "status": "error",
+    "time": 3.0148668289185,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\mongodb\\mongodb\\src\\Operation\\Find.php",
+            "line": 179,
+            "function": "executeQuery",
+            "class": "MongoDB\\Driver\\Server",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\mongodb\\mongodb\\src\\Collection.php",
+            "line": 439,
+            "function": "execute",
+            "class": "MongoDB\\Operation\\Find",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 358,
+            "function": "find",
+            "class": "MongoDB\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CollectionTest.php",
+            "line": 30,
+            "function": "find",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testInsert"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testInsert",
+    "status": "error",
+    "time": 3.0331737995148,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 440
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CollectionTest.php",
+            "line": 41,
+            "function": "insert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testInsert",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testInsert\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testInsert",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testFind\" to pass.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave",
+    "status": "error",
+    "time": 3.0317449569702,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 549
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CollectionTest.php",
+            "line": 97,
+            "function": "save",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testSave\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testFindAll\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testFindAll\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testSave",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testBatchInsert\" to pass.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFindAndModify"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFindAndModify",
+    "status": "error",
+    "time": 3.0385711193085,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CollectionTest.php",
+            "line": 205,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFindAndModify",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testBatchInsert\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testFindAndModify",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testMapReduce\" to pass.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 3.0218889713287,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 252
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\CollectionTest.php",
+            "line": 353,
+            "function": "createIndex",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testCreateIndex\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testCreateIndex\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testBatchInsert\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testInsert\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testInsert\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\CollectionTest",
+    "test": "vistart\\mongodb\\tests\\CollectionTest::testCreateIndex",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\CollectionTest::testBatchInsert\" to pass.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testConstruct"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testConstruct",
+    "status": "pass",
+    "time": 0.0016279220581055,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testOpenClose"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testOpenClose",
+    "status": "fail",
+    "time": 0.0047500133514404,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that exception of type \"vistart\\mongodb\\Exception\" matches expected exception \"yii\\mongodb\\Exception\". Message was: \"Failed to parse MongoDB URI: 'unknown::memory:'\" at\nD:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Connection.php:239\nD:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\ConnectionTest.php:44\nD:\\Server\\bin\\php\\php5.6.17\\phpunit.phar:515\n.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testGetDatabase"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testGetDatabase",
+    "status": "fail",
+    "time": 0.0018069744110107,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\ConnectionTest.php",
+            "line": 53,
+            "function": "assertTrue",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that false is true.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName with data set #0 ('mongodb:\/\/travis:test@localho...dbname', 'dbname')"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName with data set #0 ('mongodb:\/\/travis:test@localho...dbname', 'dbname')",
+    "status": "pass",
+    "time": 0.001427173614502,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName with data set #1 ('mongodb:\/\/travis:test@localho...300000', 'dbname')"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName",
+    "test": "vistart\\mongodb\\tests\\ConnectionTest::testFetchDefaultDatabaseName with data set #1 ('mongodb:\/\/travis:test@localho...300000', 'dbname')",
+    "status": "pass",
+    "time": 0.0010490417480469,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "",
+    "test": "",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\ConnectionTest::testGetDatabase\" to pass.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "",
+    "test": "",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\ConnectionTest::testGetDefaultDatabase\" to pass.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testGetCollection"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testGetCollection",
+    "status": "fail",
+    "time": 1.0052850246429,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\DatabaseTest.php",
+            "line": 26,
+            "function": "assertTrue",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that false is true.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testExecuteCommand"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testExecuteCommand",
+    "status": "error",
+    "time": 2.0414969921112,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Database.php",
+            "line": 175
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\DatabaseTest.php",
+            "line": 42,
+            "function": "executeCommand",
+            "class": "vistart\\mongodb\\Database",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testCreateCollection"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\DatabaseTest",
+    "test": "vistart\\mongodb\\tests\\DatabaseTest::testCreateCollection",
+    "status": "error",
+    "time": 2.0256400108337,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Database.php",
+            "line": 150
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\DatabaseTest.php",
+            "line": 50,
+            "function": "createCollection",
+            "class": "vistart\\mongodb\\Database",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "tests": 19
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testAll"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testAll",
+    "status": "error",
+    "time": 2.0184030532837,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testDirectMatch"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testDirectMatch",
+    "status": "error",
+    "time": 2.010666847229,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testIndexBy"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testIndexBy",
+    "status": "error",
+    "time": 2.0275681018829,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testInCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testInCondition",
+    "status": "error",
+    "time": 2.021831035614,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNotInCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNotInCondition",
+    "status": "error",
+    "time": 2.0240430831909,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOrCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOrCondition",
+    "status": "error",
+    "time": 2.0078139305115,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCombinedInAndCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCombinedInAndCondition",
+    "status": "error",
+    "time": 2.0106101036072,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCombinedInLikeAndCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCombinedInLikeAndCondition",
+    "status": "error",
+    "time": 2.0321669578552,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNestedCombinedInAndCondition"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNestedCombinedInAndCondition",
+    "status": "error",
+    "time": 2.0093901157379,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOrder"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOrder",
+    "status": "error",
+    "time": 2.0107171535492,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testMatchPlainId"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testMatchPlainId",
+    "status": "error",
+    "time": 2.0240039825439,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testRegex"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testRegex",
+    "status": "error",
+    "time": 2.0222611427307,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testLike"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testLike",
+    "status": "error",
+    "time": 2.0237998962402,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCompare"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testCompare",
+    "status": "error",
+    "time": 2.010883808136,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNot"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testNot",
+    "status": "error",
+    "time": 2.0177490711212,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testModify"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testModify",
+    "status": "error",
+    "time": 2.0170869827271,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOptions"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOptions",
+    "status": "error",
+    "time": 2.0121991634369,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testOptions",
+    "status": "error",
+    "time": 0,
+    "trace": [
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Skipped Test: This test depends on \"vistart\\mongodb\\tests\\QueryRunTest::testInCondition\" to pass.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testSelect"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryRunTest",
+    "test": "vistart\\mongodb\\tests\\QueryRunTest::testSelect",
+    "status": "error",
+    "time": 2.0172400474548,
+    "trace": [
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\Collection.php",
+            "line": 472
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 43,
+            "function": "batchInsert",
+            "class": "vistart\\mongodb\\Collection",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\www\\yii2-models-dev\\vendor\\vistart\\yii2-mongodb\\tests\\QueryRunTest.php",
+            "line": 15,
+            "function": "setUpTestRows",
+            "class": "vistart\\mongodb\\tests\\QueryRunTest",
+            "type": "->"
+        },
+        {
+            "file": "D:\\Server\\bin\\php\\php5.6.17\\phpunit.phar",
+            "line": 515,
+            "function": "main",
+            "class": "PHPUnit_TextUI_Command",
+            "type": "::"
+        }
+    ],
+    "message": "Authentication failed.",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testSelect"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testSelect",
+    "status": "pass",
+    "time": 0.0034031867980957,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testFrom"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testFrom",
+    "status": "pass",
+    "time": 0.0019900798797607,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testWhere"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testWhere",
+    "status": "pass",
+    "time": 0.0012519359588623,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testFilterWhere"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testFilterWhere",
+    "status": "pass",
+    "time": 0.0011441707611084,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testOrder"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testOrder",
+    "status": "pass",
+    "time": 0.001784086227417,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testLimitOffset"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testLimitOffset",
+    "status": "pass",
+    "time": 0.0016729831695557,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testOptions"
+}{
+    "event": "test",
+    "suite": "vistart\\mongodb\\tests\\QueryTest",
+    "test": "vistart\\mongodb\\tests\\QueryTest::testOptions",
+    "status": "pass",
+    "time": 0.0012209415435791,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "vistart\\mongodb\\tests\\SessionTest",
+    "tests": 5
+}{
+    "event": "testStart",
+    "suite": "vistart\\mongodb\\tests\\SessionTest",
+    "test": "vistart\\mongodb\\tests\\SessionTest::testWriteSession"
+}

@@ -1,0 +1,53 @@
+vistart\mongodb\tests\Cache
+ [ ] Set
+ [ ] Add
+
+vistart\mongodb\tests\Collection
+ [x] Get name
+ [ ] Find
+ [ ] Insert
+ [ ] Save
+ [ ] Find and modify
+ [ ] Create index
+
+vistart\mongodb\tests\Connection
+ [x] Construct
+ [ ] Open close
+ [ ] Get database
+ [x] Fetch default database name
+
+vistart\mongodb\tests\Database
+ [ ] Get collection
+ [ ] Execute command
+ [ ] Create collection
+
+vistart\mongodb\tests\QueryRun
+ [ ] All
+ [ ] Direct match
+ [ ] Index by
+ [ ] In condition
+ [ ] Not in condition
+ [ ] Or condition
+ [ ] Combined in and condition
+ [ ] Combined in like and condition
+ [ ] Nested combined in and condition
+ [ ] Order
+ [ ] Match plain id
+ [ ] Regex
+ [ ] Like
+ [ ] Compare
+ [ ] Not
+ [ ] Modify
+ [ ] Options
+ [ ] Select
+
+vistart\mongodb\tests\Query
+ [x] Select
+ [x] From
+ [x] Where
+ [x] Filter where
+ [x] Order
+ [x] Limit offset
+ [x] Options
+
+vistart\mongodb\tests\Session

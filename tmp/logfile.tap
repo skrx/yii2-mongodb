@@ -1,0 +1,79 @@
+TAP version 13
+not ok 1 - Error: vistart\mongodb\tests\CacheTest::testSet
+not ok 2 - Failure: vistart\mongodb\tests\CacheTest::testAdd
+  ---
+  message: 'Unable to add value!'
+  severity: fail
+  ...
+ok 2 - # SKIP This test depends on "vistart\mongodb\tests\CacheTest::testSet" to pass.
+ok 2 - # SKIP This test depends on "vistart\mongodb\tests\CacheTest::testSet" to pass.
+ok 2 - # SKIP This test depends on "vistart\mongodb\tests\CacheTest::testSet" to pass.
+ok 2 - # SKIP This test depends on "vistart\mongodb\tests\CacheTest::testSet" to pass.
+ok 3 - vistart\mongodb\tests\CollectionTest::testGetName
+not ok 4 - Error: vistart\mongodb\tests\CollectionTest::testFind
+not ok 5 - Error: vistart\mongodb\tests\CollectionTest::testInsert
+ok 5 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testInsert" to pass.
+ok 5 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testFind" to pass.
+not ok 6 - Error: vistart\mongodb\tests\CollectionTest::testSave
+ok 6 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testSave" to pass.
+ok 6 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testFindAll" to pass.
+ok 6 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testFindAll" to pass.
+ok 6 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testBatchInsert" to pass.
+not ok 7 - Error: vistart\mongodb\tests\CollectionTest::testFindAndModify
+ok 7 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testBatchInsert" to pass.
+ok 7 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testMapReduce" to pass.
+not ok 8 - Error: vistart\mongodb\tests\CollectionTest::testCreateIndex
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testCreateIndex" to pass.
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testCreateIndex" to pass.
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testBatchInsert" to pass.
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testInsert" to pass.
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testInsert" to pass.
+ok 8 - # SKIP This test depends on "vistart\mongodb\tests\CollectionTest::testBatchInsert" to pass.
+ok 9 - vistart\mongodb\tests\ConnectionTest::testConstruct
+not ok 10 - Failure: vistart\mongodb\tests\ConnectionTest::testOpenClose
+  ---
+  message: 'Failed asserting that exception of type "vistart\mongodb\Exception" matches expected exception "yii\mongodb\Exception". Message was: "Failed to parse MongoDB URI: ''unknown::memory:''" at'
+  severity: fail
+  ...
+not ok 11 - Failure: vistart\mongodb\tests\ConnectionTest::testGetDatabase
+  ---
+  message: 'Failed asserting that false is true.'
+  severity: fail
+  ...
+ok 12 - vistart\mongodb\tests\ConnectionTest::testFetchDefaultDatabaseName with data set #0 ('mongodb://travis:test@localho...dbname', 'dbname')
+ok 13 - vistart\mongodb\tests\ConnectionTest::testFetchDefaultDatabaseName with data set #1 ('mongodb://travis:test@localho...300000', 'dbname')
+ok 13 - # SKIP This test depends on "vistart\mongodb\tests\ConnectionTest::testGetDatabase" to pass.
+ok 13 - # SKIP This test depends on "vistart\mongodb\tests\ConnectionTest::testGetDefaultDatabase" to pass.
+not ok 14 - Failure: vistart\mongodb\tests\DatabaseTest::testGetCollection
+  ---
+  message: 'Failed asserting that false is true.'
+  severity: fail
+  ...
+not ok 15 - Error: vistart\mongodb\tests\DatabaseTest::testExecuteCommand
+not ok 16 - Error: vistart\mongodb\tests\DatabaseTest::testCreateCollection
+not ok 17 - Error: vistart\mongodb\tests\QueryRunTest::testAll
+not ok 18 - Error: vistart\mongodb\tests\QueryRunTest::testDirectMatch
+not ok 19 - Error: vistart\mongodb\tests\QueryRunTest::testIndexBy
+not ok 20 - Error: vistart\mongodb\tests\QueryRunTest::testInCondition
+not ok 21 - Error: vistart\mongodb\tests\QueryRunTest::testNotInCondition
+not ok 22 - Error: vistart\mongodb\tests\QueryRunTest::testOrCondition
+not ok 23 - Error: vistart\mongodb\tests\QueryRunTest::testCombinedInAndCondition
+not ok 24 - Error: vistart\mongodb\tests\QueryRunTest::testCombinedInLikeAndCondition
+not ok 25 - Error: vistart\mongodb\tests\QueryRunTest::testNestedCombinedInAndCondition
+not ok 26 - Error: vistart\mongodb\tests\QueryRunTest::testOrder
+not ok 27 - Error: vistart\mongodb\tests\QueryRunTest::testMatchPlainId
+not ok 28 - Error: vistart\mongodb\tests\QueryRunTest::testRegex
+not ok 29 - Error: vistart\mongodb\tests\QueryRunTest::testLike
+not ok 30 - Error: vistart\mongodb\tests\QueryRunTest::testCompare
+not ok 31 - Error: vistart\mongodb\tests\QueryRunTest::testNot
+not ok 32 - Error: vistart\mongodb\tests\QueryRunTest::testModify
+not ok 33 - Error: vistart\mongodb\tests\QueryRunTest::testOptions
+ok 33 - # SKIP This test depends on "vistart\mongodb\tests\QueryRunTest::testInCondition" to pass.
+not ok 34 - Error: vistart\mongodb\tests\QueryRunTest::testSelect
+ok 35 - vistart\mongodb\tests\QueryTest::testSelect
+ok 36 - vistart\mongodb\tests\QueryTest::testFrom
+ok 37 - vistart\mongodb\tests\QueryTest::testWhere
+ok 38 - vistart\mongodb\tests\QueryTest::testFilterWhere
+ok 39 - vistart\mongodb\tests\QueryTest::testOrder
+ok 40 - vistart\mongodb\tests\QueryTest::testLimitOffset
+ok 41 - vistart\mongodb\tests\QueryTest::testOptions
