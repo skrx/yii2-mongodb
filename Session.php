@@ -10,7 +10,7 @@
  * @license http://vistart.name/license/
  */
 
-namespace app\mongodb;
+namespace vistart\mongodb;
 
 use Yii;
 use yii\base\ErrorHandler;
