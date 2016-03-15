@@ -24,7 +24,8 @@ cache:
     - $HOME/.composer/cache
 
 install:
-  - sudo echo "extension = mongodb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - phpenv version-name
+  - echo "extension = mongodb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - travis_retry composer self-update && composer --version
   - travis_retry composer global require "fxp/composer-asset-plugin:~1.0.0"
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
@@ -36,7 +37,6 @@ before_script:
     if [ $TRAVIS_PHP_VERSION = '5.6' ]; then
       PHPUNIT_FLAGS="--coverage-clover=coverage.clover"
     fi
-
 
 script:
   - phpunit --verbose $PHPUNIT_FLAGS
