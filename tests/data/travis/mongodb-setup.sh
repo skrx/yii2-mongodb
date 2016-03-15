@@ -2,13 +2,8 @@
 #
 # install mongodb
 
-if (php --version | grep -i HipHop > /dev/null); then
-  echo "mongodb does not work on HHVM currently, skipping"
-  exit 0
-else
-  pecl install mongodb
-  echo "extension = mongodb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
-fi
+pecl install mongodb
+echo "extension = mongodb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 echo "MongoDB Server version:"
 mongod --version
