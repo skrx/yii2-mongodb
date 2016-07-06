@@ -10,13 +10,13 @@
  * @license http://vistart.name/license/
  */
 
-namespace yii\mongodb\console\controllers;
+namespace vistart\mongodb\console\controllers;
 
 use Yii;
 use yii\console\controllers\BaseMigrateController;
 use yii\console\Exception;
-use yii\mongodb\Connection;
-use yii\mongodb\Query;
+use vistart\mongodb\Connection;
+use vistart\mongodb\Query;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -69,7 +69,7 @@ class MigrateController extends BaseMigrateController
     /**
      * @inheritdoc
      */
-    public $templateFile = '@yii/mongodb/views/migration.php';
+    public $templateFile = '@vendor/vistart/yii2-mongodb/views/migration.php';
 
     /**
      * @var Connection|string the DB connection object or the application
